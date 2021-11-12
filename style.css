@@ -1,0 +1,290 @@
+* {
+    margin: 0;
+    color: white;
+}
+
+body {
+    font-family: system-ui;
+    background-color: lightgreen;
+    height: 800px;
+    z-index: -1;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/background.jpg);
+    background-size: cover;
+}
+
+.titleBox {
+    position: relative;
+    text-align: center;
+    right: 430px;
+    top: 500px;
+    color: white;
+}
+
+.myName {
+    font-weight: 800;
+    color: white;
+}
+
+.tabList {
+    background-color: lightslategray; 
+    list-style-type: none;
+    text-align: right;
+    margin: 0;
+    padding: 10px;
+    position: fixed;
+    width: 1470px;
+    bottom: 640px;
+    z-index: 1;
+}
+
+.tabList li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 1;
+}
+
+a.list1:link {
+    text-decoration: none;
+    color: gold;
+}
+
+a.list2:link {
+    text-decoration: none;
+    color: gold;
+}
+a.list3:link {
+    text-decoration: none;
+    color: gold;
+}
+a.list1:hover {
+    text-decoration: none;
+    color: gold;
+}
+a.list2:hover {
+    text-decoration: none;
+    color: gold;
+}
+a.list3:hover {
+    text-decoration: none;
+    color: gold;
+}
+a.list1:visited {
+    text-decoration: none;
+    color: lightgreen;
+}
+a.list2:visited {
+    text-decoration: none;
+    color: lightgreen;
+}
+a.list3:visited {
+    text-decoration: none;
+    color: lightgreen;
+}
+a.list1:active {
+    text-decoration: none;
+    color: gold;
+}
+a.list2:active {
+    text-decoration: none;
+    color: gold;
+}
+a.list3:active {
+    text-decoration: none;
+    color: gold;
+}
+.personal{
+    font-size: 40px;
+    color: white;
+}
+.personalInfo {
+    position: relative;
+    left: 800px;
+    top: 100px;
+    width: 500px;
+    color: white;
+}
+.age{
+    line-height: 2;
+    color: white;
+}
+.gender{
+    line-height: 4;
+    color: white;
+}
+.personalPara{
+    line-height: 2;
+    color: white;
+}
+.workEx{
+    line-height: 2;
+    color: white;
+    margin-left: 54%;
+    margin-top: 8%;
+}
+.userPic{
+    position: absolute;
+    width: 12%;
+    height: auto;
+    left: 220px;
+    top: 270px;
+}
+.myContact{
+    z-index: 1;
+    position: relative;
+    font-size: 80px;
+    text-align: center;
+    top: 250px;
+}
+.schoolEmail{ 
+    position: relative;
+    top: 500px;
+    left: 550px;
+    width: 600px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.emailLink{
+    position: relative;
+    left: 750px;
+    top: 480px;
+}
+.myProject{
+    font-size: 45px;
+    position: relative;
+    text-align: center;
+    top: 200px;
+}
+.projectPara{
+    position: relative;
+    text-align: center;
+    top: 300px;
+}
+.game1 {
+    position: relative;
+    top: 650px;
+    left: 350px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.game1:visited {
+    text-decoration: none;
+    color: greenyellow;
+}
+a.game1:link{
+    color: greenyellow;
+    text-decoration: none;
+}
+.body2 {
+    height: 850px;
+}
+.TTTboard {
+    position: absolute;
+    width: 15%;
+    height: auto;
+    top: 540px;
+    left: 310px;
+}
+.rpss {
+    position: absolute;
+    width: 15%;
+    height: auto;
+    top: 540px;
+    left: 950px;
+}
+.game2 {
+    position: relative;
+    top: 650px;
+    left: 860px;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.game2:visited {
+    text-decoration: none;
+    color: greenyellow;
+}
+a.game2:link{
+    color: greenyellow;
+    text-decoration: none;
+}
+.biome{
+    width: 30%;
+    height: auto;
+    margin-top: 40%;
+    margin-left: 10%;
+    border: 5px solid gold;
+}
+.paraBiome{
+    margin-left: 50%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    margin-top: -10%;
+    color: white;
+}
+.background1{
+    background-position: center;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(image/background.jpg);
+}
+.codeLan{
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    margin-top: -50%;
+}
+.java{
+    color: yellow;
+    background-color: black;
+    position: relative;
+    width: 400px;
+    text-align: left;
+    left: 550px;
+    top: 50px;
+    font-size: 25px;
+}
+.html{
+    color: orangered;
+    background-color: black;
+    position: relative;
+    width: 400px;
+    text-align: left;
+    left: 550px;
+    top: 50px;
+    font-size: 25px;
+}
+.css{
+    color: rgb(0, 162, 255);
+    background-color: black;
+    position: relative;
+    width: 400px;
+    text-align: left;
+    left: 550px;
+    top: 50px;
+    font-size: 25px;
+}
+.home{
+    height: 1800px;
+    background-color: black;
+    z-index: 1;
+}
+.discord{
+    position: absolute;
+    left: 600px;
+    top: 450px;
+}
+.discordPara{
+    position: absolute;
+    font-weight: 800;
+    font-size: 25px;
+    top: 450px;
+    left: 720px;
+    text-transform: uppercase;
+}
